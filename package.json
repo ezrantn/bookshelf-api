@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "start-dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"**/*.js\"",
+    "eslint": "npx eslint \"**/*.js\""
   },
   "author": "Ezra Natanael",
   "type": "module",
@@ -15,5 +16,11 @@
     "@hapi/hapi": "^21.3.12",
     "nanoid": "^5.0.7",
     "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "prettier": "3.3.3"
   }
 }
