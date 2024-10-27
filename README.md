@@ -190,24 +190,26 @@ The server will generate additional properties for each book:
    - Status Code: `400`
    - Response:
 
-    ```json
-    {
-        "status": "fail",
-        "message": "Gagal menambahkan buku. Mohon isi nama buku"
-    }
-    ```
+
+        ```json
+        {
+            "status": "fail",
+            "message": "Gagal menambahkan buku. Mohon isi nama buku"
+        }
+        ```
 
 2. Invalid Read Page
 
    - Status Code: `400`
    - Response:
 
-   ```json
-    {
-        "status": "fail",
-        "message": "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount"
-    }
-   ```
+
+        ```json
+            {
+                "status": "fail",
+                "message": "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount"
+            }
+        ```
 
 ### Get All Books
 
@@ -336,24 +338,26 @@ Request Body:
    - Status Code: `400`
    - Response:
 
-   ```json
-    {
-        "status": "fail",
-        "message": "Gagal memperbarui buku. Mohon isi nama buku"
-    }
-   ```
+
+        ```json
+            {
+                "status": "fail",
+                "message": "Gagal memperbarui buku. Mohon isi nama buku"
+            }
+        ```
 
 2. Invalid Read Page
 
    - Status Code: `400`
    - Response:
 
-   ```json
-    {
-        "status": "fail",
-        "message": "Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount"
-    }
-   ```
+
+        ```json
+            {
+                "status": "fail",
+                "message": "Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount"
+            }
+        ```
 
 3. Book Not Found
 
@@ -361,12 +365,12 @@ Request Body:
    - Response:
 
 
-   ```json
-    {
-        "status": "fail",
-        "message": "Gagal memperbarui buku. Id tidak ditemukan"
-    }
-   ```
+        ```json
+            {
+                "status": "fail",
+                "message": "Gagal memperbarui buku. Id tidak ditemukan"
+            }
+        ```
 
 ### Delete a Book
 
