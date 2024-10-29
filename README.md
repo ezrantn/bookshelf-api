@@ -205,10 +205,10 @@ The server will generate additional properties for each book:
 
 
         ```json
-            {
-                "status": "fail",
-                "message": "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount"
-            }
+        {
+            "status": "fail",
+            "message": "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount"
+        }
         ```
 
 ### Get All Books
